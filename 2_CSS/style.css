@@ -1,0 +1,53 @@
+/* Tag */
+p {
+    /* rgb */
+    /* color: rgb(255, 10, 90); */
+    /* nombre */
+    /* color: red; */
+    /* Hex */
+    /* color: #00FF33; */
+    font-family: Arial;
+}
+
+body {
+    background-color: coral;
+}
+
+h1 {
+    font-family: Arial;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+/* Clase */
+.verde {
+    color: green;
+}
+
+.verde:hover {
+    color: red;
+}
+
+.cuadrado {
+    background-color: indigo;
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    border: dashed 5px black;
+    margin: 25px;
+}
+
+.cuadrado:hover {
+    background: yellow;
+    height: 100px;
+    padding: 200px;
+}
+
+/* ID Prioridad ÚNICO */
+#azul {
+    color: blue;
+}
