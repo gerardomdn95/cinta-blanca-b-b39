@@ -1,0 +1,49 @@
+/* Aplica a TODAS las etiquetas este estilo */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.encabezado {
+    background-color: tomato;
+}
+.titulo {
+    text-align: center;
+    color: #FFFFFF;
+}
+/* header */
+
+/* main */
+.contenedor-principal {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.texto {
+    border: solid 1px black;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    /* Flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagen {
+    border: solid 1px black;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    /* Flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    height: 200px;
+    width: 150px;
+}
+/* main */
