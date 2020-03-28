@@ -1,0 +1,53 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar a {
+    margin-right: 5px;
+}
+
+.navbar button {
+    margin-right: 5px;
+}
+
+.navbar img {
+    margin-right: 5px;
+}
+
+.main-container {
+    background-color: violet;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* Aquí centro horizontal y verticalmente */
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 92px;
+    width: 272px;
+}
+
+.search-input {
+    width: 450px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.action-button {
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    height: 36px;
+    width: 160px;
+}
