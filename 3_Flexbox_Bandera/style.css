@@ -1,0 +1,64 @@
+.flag {
+    height: 800px;
+    width: 1100px;
+    border: solid 1px black;
+    background-color: #002868;
+}
+
+.top {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.white-square {
+    height: 350px;
+    width: 350px;
+    background-color: white;
+}
+
+.white-rectangle {
+    height: 350px;
+    width: 650px;
+    background-color: white;
+}
+
+.red-square {
+    height: 300px;
+    width: 300px;
+    background-color: #EF2B2D;
+}
+
+.red-rectangle {
+    height: 300px;
+    width: 600px;
+    background-color: #EF2B2D;
+}
+
+#top-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#bottom-left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#bottom-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
