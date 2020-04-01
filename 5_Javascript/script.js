@@ -40,6 +40,13 @@ console.log("La resta es " + mult);
 var div = x / z;
 console.log("La resta es " + (x / z));
 
+// Módulo
+console.log("🔥");
+var modulo = 3 % 2;
+// Si el residuo es 0 => es par
+// Si el residuo es != 0 => es impar
+console.log(modulo);
+
 // Enumerar variables
 console.log(suma, resta, mult, div);
 
@@ -82,9 +89,17 @@ function sumaNumeros(a, b) {
 // 
 //  Punto A      ________
 //           ==> l      l
-//               l      l ==>   Tarifa
+//               l      l  ==>  Tarifa
 //  Punto B      l______l
 
 console.log(sumaNumeros(5, 9));
 console.log(sumaNumeros(9, 1));
 console.log(sumaNumeros(3, 90));
+
+// Error
+// console.log(variable);
+
+// Código inaccesible
+var edad = prompt("Ingresa tu edad.");
+edad = parseInt(edad);
+console.log(edad);
