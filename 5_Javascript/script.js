@@ -50,7 +50,7 @@ console.log(modulo);
 // Enumerar variables
 console.log(suma, resta, mult, div);
 
-// Operadores lógicos
+// Operadores relacionales
 
 // Mayor que
 console.log(9 > 3); // true
