@@ -1,0 +1,34 @@
+body {
+    background-color: #509bf5;
+}
+
+.navbar-transparent {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    height: 80px;
+    top: 0;
+}
+
+.main-container {
+    margin-top: 90px;
+}
+
+.is-green {
+    background-color: yellowgreen;
+}
+
+.is-blue {
+    background-color: #4267b2;
+}
+
+.btn-primary {
+    background-color: #4267b2;
+    border-color: #4267b2;
+}
+
+.btn-primary:hover {
+    background-color: #1D3C78;
+    border-color: #1D3C78;
+}
