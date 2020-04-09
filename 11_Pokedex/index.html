@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-danger">
+        <span class="navbar-brand mb-0 h1 text-white">Pokedex</span>
+    </nav>
+
+    <br>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <label for="">Escribe un Pokémon</label>
+                    <div class="input-group mb-3">
+                        <input id="poke-input" type="text" class="form-control" placeholder="Escribe aquí">
+                        <div class="input-group-append">
+                            <button onclick="findPokemon()" class="btn btn-outline-danger" type="button">Buscar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <img id="poke-image" src="https://images3.alphacoders.com/677/thumb-1920-677583.png" class="card-img-top"
+                            alt="Pokemon">
+                        <div class="card-body">
+                            <h5 id="poke-name" class="card-title">???</h5>
+                            <ul class="card-text">
+                                <li id="poke-move-1"></li>
+                                <li id="poke-move-2"></li>
+                                <li id="poke-move-3"></li>
+                                <li id="poke-move-4"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
